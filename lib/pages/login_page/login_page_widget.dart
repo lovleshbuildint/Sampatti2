@@ -51,6 +51,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
             ));
           },
         );
+        context.pop();
       } else {
         if ((FFAppState().userId != null && FFAppState().userId != '') &&
             (FFAppState().token != null && FFAppState().token != '') &&
