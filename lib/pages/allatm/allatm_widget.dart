@@ -1565,7 +1565,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "new" ? true : false;
+                                                                                            return grade == "New" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -1573,7 +1573,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                             ClipRRect(
                                                                                               borderRadius: BorderRadius.circular(8.0),
                                                                                               child: Image.asset(
-                                                                                                'assets/images/new.png',
+                                                                                                'assets/images/New.png',
                                                                                                 width: 24.0,
                                                                                                 height: 24.0,
                                                                                                 fit: BoxFit.contain,
@@ -2782,7 +2782,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "new" ? true : false;
+                                                                                            return grade == "New" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -2790,7 +2790,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                             ClipRRect(
                                                                                               borderRadius: BorderRadius.circular(8.0),
                                                                                               child: Image.asset(
-                                                                                                'assets/images/new.png',
+                                                                                                'assets/images/New.png',
                                                                                                 width: 24.0,
                                                                                                 height: 24.0,
                                                                                                 fit: BoxFit.contain,
@@ -3900,7 +3900,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "new" ? true : false;
+                                                                                            return grade == "New" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -3908,7 +3908,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                             ClipRRect(
                                                                                               borderRadius: BorderRadius.circular(8.0),
                                                                                               child: Image.asset(
-                                                                                                'assets/images/new.png',
+                                                                                                'assets/images/New.png',
                                                                                                 width: 24.0,
                                                                                                 height: 24.0,
                                                                                                 fit: BoxFit.contain,
