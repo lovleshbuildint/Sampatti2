@@ -215,14 +215,18 @@ class TransectionDipCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List<String>? dipGrade(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].grade''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List? dipBank(dynamic response) => getJsonField(
         response,
         r'''$.data[:].bank''',
@@ -234,21 +238,27 @@ class TransectionDipCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List<int>? dipTransaction(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].transactionTrend''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<int>();
+          .map((x) => castToType<int>(x))
+          .withoutNulls
+          .toList();
   static List<int>? dipUptime(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].uptimeTrend''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<int>();
+          .map((x) => castToType<int>(x))
+          .withoutNulls
+          .toList();
   static List? dipDowntime(dynamic response) => getJsonField(
         response,
         r'''$.data[:].downtime''',
@@ -260,7 +270,9 @@ class TransectionDipCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
 }
 
 class MachineDownCall {
@@ -381,14 +393,18 @@ class MachineDownUATCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List<String>? grade(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].grade''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List? bank(dynamic response) => getJsonField(
         response,
         r'''$.data[:].bank''',
@@ -400,21 +416,27 @@ class MachineDownUATCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
   static List<int>? transactionTrend(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].transactionTrend''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<int>();
+          .map((x) => castToType<int>(x))
+          .withoutNulls
+          .toList();
   static List<int>? uptimeTrend(dynamic response) => (getJsonField(
         response,
         r'''$.data[:].uptimeTrend''',
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<int>();
+          .map((x) => castToType<int>(x))
+          .withoutNulls
+          .toList();
   static List? downTime(dynamic response) => getJsonField(
         response,
         r'''$.data[:].downtime''',
@@ -426,7 +448,9 @@ class MachineDownUATCall {
         true,
       ) as List?)
           ?.withoutNulls
-          .cast<String>();
+          .map((x) => castToType<String>(x))
+          .withoutNulls
+          .toList();
 }
 
 class AllAtmCall {

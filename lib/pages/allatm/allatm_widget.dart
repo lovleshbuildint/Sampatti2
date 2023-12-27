@@ -1565,7 +1565,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "New" ? true : false;
+                                                                                            return grade == "new" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -2782,7 +2782,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "New" ? true : false;
+                                                                                            return grade == "new" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -2790,7 +2790,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                             ClipRRect(
                                                                                               borderRadius: BorderRadius.circular(8.0),
                                                                                               child: Image.asset(
-                                                                                                'assets/images/New.png',
+                                                                                                'assets/images/new.png',
                                                                                                 width: 24.0,
                                                                                                 height: 24.0,
                                                                                                 fit: BoxFit.contain,
@@ -3900,7 +3900,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                               ),
                                                                                             ),
                                                                                           if ((String grade) {
-                                                                                            return grade == "New" ? true : false;
+                                                                                            return grade == "new" ? true : false;
                                                                                           }(getJsonField(
                                                                                             dataItem,
                                                                                             r'''$..grade''',
@@ -3908,7 +3908,7 @@ class _AllatmWidgetState extends State<AllatmWidget>
                                                                                             ClipRRect(
                                                                                               borderRadius: BorderRadius.circular(8.0),
                                                                                               child: Image.asset(
-                                                                                                'assets/images/New.png',
+                                                                                                'assets/images/new.png',
                                                                                                 width: 24.0,
                                                                                                 height: 24.0,
                                                                                                 fit: BoxFit.contain,

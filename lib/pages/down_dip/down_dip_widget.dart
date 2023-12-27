@@ -1844,7 +1844,7 @@ class _DownDipWidgetState extends State<DownDipWidget>
                                                                                                   ClipRRect(
                                                                                                     borderRadius: BorderRadius.circular(8.0),
                                                                                                     child: Image.asset(
-                                                                                                      'assets/images/New.png',
+                                                                                                      'assets/images/new.png',
                                                                                                       width: 24.0,
                                                                                                       height: 24.0,
                                                                                                       fit: BoxFit.contain,
@@ -3212,7 +3212,7 @@ class _DownDipWidgetState extends State<DownDipWidget>
                                                                                                   ClipRRect(
                                                                                                     borderRadius: BorderRadius.circular(8.0),
                                                                                                     child: Image.asset(
-                                                                                                      'assets/images/New.png',
+                                                                                                      'assets/images/new.png',
                                                                                                       width: 24.0,
                                                                                                       height: 24.0,
                                                                                                       fit: BoxFit.contain,
